@@ -1,0 +1,25 @@
+{
+  "background": {
+    "scripts": ["tfjs.js", "jquery.js","background.js"]
+  },
+  "description": "Test for fakes",
+  "homepage_url": "https://github.com/collinli2022/2021_June_TeenHacks",
+  "browser_action": {
+    "default_title": "Fake Detector",
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon.svg"
+  },
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "permissions": [
+    "activeTab",
+    "history",
+    "tabs",
+    "storage"
+  ],
+  "manifest_version": 2,
+  "name": "Fake Detector",
+  "version": "1.0"
+}
