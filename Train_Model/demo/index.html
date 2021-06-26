@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Fake News Classification</title>
+
+    <link href="//fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Fake News Classification</h1>
+        <p>A system to identify unreliable news articles with deep learning.</p>
+        <p class="view"><a href="http://github.com/gmittal/fake-news">View the Project on GitHub <small>gmittal/fake-news</small></a></p>
+        <p><img src="images/fake-news.png" /></p>
+        <ul>
+          <li><a href="https://github.com/gmittal/fake-news/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/gmittal/fake-news/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/gmittal/fake-news">Fork On <strong>GitHub</strong></a></li>
+          <br /><br /><br />
+          <blockquote>
+          <p>We're living amid an artificial reality, persuaded to believe it's real by astroturf engineered to look like grassroots. &mdash; <b>Sharyl Attkisson</b></p>
+          </blockquote>
+        </ul>
+        <div class="spacing"></div>
+      </header>
+      <section>
+        <h1 id="demo_header">Writing Experiment</h1>
+        <div id="prediction">
+          <div id="circle" class="loading"></div>
+          <span id="helper">Loading deep neural classification model...</span>
+        </div>
+        <textarea id="news_content" placeholder="Type here to see the potential effect of what you're writing."></textarea>
+      </section>
+      <footer>
+        <p>Maintained by <a href="https://github.com/gmittal">Gautam Mittal</a></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    <script
+      src="//code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.7"></script>
+    <script src="javascripts/main.js"></script>
+  </body>
+</html>
