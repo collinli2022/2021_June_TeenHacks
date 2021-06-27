@@ -17,6 +17,7 @@
     "activeTab",
     "history",
     "tabs",
+    "contextMenus",
     "storage",
     "https://newsapi.org/v2/everything"
   ],
