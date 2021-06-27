@@ -17,7 +17,8 @@
     "activeTab",
     "history",
     "tabs",
-    "storage"
+    "storage",
+    "https://newsapi.org/v2/everything"
   ],
   "manifest_version": 2,
   "name": "Fake Detector",
